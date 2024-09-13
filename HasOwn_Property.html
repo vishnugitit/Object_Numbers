@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        
+      const obj = {
+        name: "Vishnu",
+        role: "Developer",
+        location: "Hyderabad",
+        salary: "30,000",
+        experience: "fresher",
+      };
+      // returns true if the value/attribute is present.
+      console.log(Object.hasOwnProperty("name"));
+      //returns false if the value/attribute is not present.
+      console.log(Object.hasOwnProperty("address"));
     </script>
-</body>
+  </body>
 </html>
